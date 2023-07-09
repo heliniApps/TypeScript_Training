@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: max-content;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.mug-article {
+    width: 30%;
+    margin: 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+}
+
+.mug-features-li span {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
